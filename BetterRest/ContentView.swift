@@ -10,7 +10,7 @@ import CoreML
 
 struct ContentView: View {
     @State var wakeup = Date.now
-    @State var wantedSleepHRs = 8
+    @State var wantedSleepHRs = 9
     @State var cupsOfCoffeePerDay = 1
     
     @State var alertTitle = ""
